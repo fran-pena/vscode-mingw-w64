@@ -90,7 +90,7 @@ end program
         "type": "cppdbg",
         "request": "launch",
         "program": "${workspaceFolder}/a.exe",
-        "args": [], // Possible input args for a.out
+        "args": [], // Possible input args for a.exe
         "stopAtEntry": false,
         "cwd": "${workspaceFolder}",
         "environment": [],
