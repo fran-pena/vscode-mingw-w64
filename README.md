@@ -27,7 +27,7 @@ pacman -S mingw-w64-x86_64-gdb
 pacman -S mingw-w64-x86_64-python-pygments
 ```
 
-6. Add MinGW-w64/bin folder to the Windows PATH environment variable (the default folder is  C:\msys64\ucrt64\bin).
+6. Add MinGW-w64/bin folder to the Windows PATH environment variable (the default folder is _C:\msys64\ucrt64\bin_).
 
 7. To check the installation, open a **new** Command Prompt (CMD) and type:
 ```shell
