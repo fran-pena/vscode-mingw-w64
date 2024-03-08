@@ -41,7 +41,7 @@ mingw32-make --version
 
 2. In vscode, go to Extensions (Ctrl + Shift + X), search _Modern Fortran_ and install it.
 
-## Compiling hello.f90
+## Compiling _hello.f90_
 
 1. In vscode, open a _\<folder\>_.
 2. Create new file _hello.f90_ with the contents:
@@ -75,13 +75,48 @@ end program
   }
 ```
 
-4. In menu  _\<folder\>_, create subfolder _.vscode_. Inside it, file _tasks.json_ with the contents:
+4. Go to menu _Terminal - Run Build Task..._ (Ctrl + Shift + B)
 
+## Debugging _hello.f90_
 
+1. In  _.vscode_, create file _launch.json_ with the contents:
 
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "(gdb) Fortran",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/a.exe",
+        "args": [], // Possible input args for a.out
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "preLaunchTask": "compile",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ]
+      }
+    ]
+  }
+```
 
+2. Click left to the line number 6 to set a breakpoint
+
+3. Go to menu _Run - Start Debugging_ (F5)
 
 [^1] <https://gist.github.com/ReneNyffenegger/a8e9aa59166760c5550f993857ee437d>
+
 [^2] <https://code.visualstudio.com/docs/cpp/config-mingw>
+
 [^3] <https://www.msys2.org/docs/environments/>
+
 [^4] <https://www.youtube.com/watch?v=Rj-kYb9nZ3g>
