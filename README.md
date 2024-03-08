@@ -58,7 +58,7 @@ end do
 end program
 ```
 
-3. In  _\<folder\>_, create subfolder _.vscode_. Inside it, file _tasks.json_ with the contents:
+3. In  _\<folder\>_, create subfolder _.vscode_. Inside it, file _tasks.json_ with the contents[^4]:
 
 ```json
 {
@@ -79,7 +79,7 @@ end program
 
 ## Debugging _hello.f90_
 
-1. In  _.vscode_, create file _launch.json_ with the contents:
+1. In  _.vscode_, create file _launch.json_ with the contents[^5]:
 
 ```json
 {
@@ -120,4 +120,6 @@ end program
 [^3]: <https://www.msys2.org/docs/environments/>
 
 [^4]: <https://www.youtube.com/watch?v=Rj-kYb9nZ3g>
+
+[^5]: <https://www.youtube.com/watch?v=XuNjA230e3k>
 
