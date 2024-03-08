@@ -4,7 +4,7 @@
 
 1. Go to the webpage [www.msys2.org](https://www.msys2.org/) and download the installer.
    - _MSYS is a collection of GNU utilities such as bash, make, [...] It is intended to supplement MinGW and the deficiencies of the cmd shell[^1]_.
-   - _Get the latest version of MinGW-w64 via MSYS2, which provides up-to-date native builds of GCC, MinGW-w64, and other helpful C++ tools and libraries[^2].
+   - _Get the latest version of MinGW-w64 via MSYS2, which provides up-to-date native builds of GCC, MinGW-w64, and other helpful C++ tools and libraries[^2]_.
 
 2. Open the terminal MSYS2 UCRT64.
    - _MSYS2 comes with different environments and the first thing you have to decide is which one to use. If you are unsure, go with UCRT64. UCRT (Universal C Runtime) is a newer version which is also used by Microsoft Visual Studio by default. It should work and behave as if the code was compiled with MSVC[^3]._
