@@ -113,10 +113,11 @@ end program
 
 3. Go to menu _Run - Start Debugging_ (F5)
 
-[^1] <https://gist.github.com/ReneNyffenegger/a8e9aa59166760c5550f993857ee437d>
+[^1]: <https://gist.github.com/ReneNyffenegger/a8e9aa59166760c5550f993857ee437d>
 
-[^2] <https://code.visualstudio.com/docs/cpp/config-mingw>
+[^2]: <https://code.visualstudio.com/docs/cpp/config-mingw>
 
-[^3] <https://www.msys2.org/docs/environments/>
+[^3]: <https://www.msys2.org/docs/environments/>
 
-[^4] <https://www.youtube.com/watch?v=Rj-kYb9nZ3g>
+[^4]: <https://www.youtube.com/watch?v=Rj-kYb9nZ3g>
+
