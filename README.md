@@ -58,7 +58,7 @@ end do
 end program
 ```
 
-3. In  _\<folder\>_, create subfolder _.vscode_. Inside it, file _tasks.json_ with the contents[^4]:
+3. In  _\<folder\>_, create subfolder _.vscode_. Inside it, create file _tasks.json_ with the contents[^4]:
 
 ```json
 {
