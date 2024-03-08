@@ -109,7 +109,7 @@ end program
   }
 ```
 
-2. Click left to the line number 6 to set a breakpoint
+2. Click left to the line number 6, for example, to set a breakpoint.
 
 3. Go to menu _Run - Start Debugging_ (F5)
 
