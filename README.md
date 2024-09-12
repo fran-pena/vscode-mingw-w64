@@ -15,6 +15,12 @@
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 ```
 
+and then
+
+```shell
+pacman -S mingw-w64-ucrt-x86_64-gcc-fortran
+```
+
 4. If `gdb` is not found in terminal, install the missing packages from the MinGW-w64 toolset:
 
 ```shell
