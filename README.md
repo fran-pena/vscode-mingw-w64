@@ -83,30 +83,26 @@ end program
 
 ```json
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "name": "(gdb) Fortran",
-        "type": "cppdbg",
-        "request": "launch",
-        "program": "${workspaceFolder}/a.exe",
-        "args": [], // Possible input args for a.out
-        "stopAtEntry": false,
-        "cwd": "${workspaceFolder}",
-        "environment": [],
-        "externalConsole": false,
-        "MIMode": "gdb",
-        "preLaunchTask": "compile",
-        "setupCommands": [
-          {
-            "description": "Enable pretty-printing for gdb",
-            "text": "-enable-pretty-printing",
-            "ignoreFailures": true
-          }
-        ]
-      }
-    ]
-  }
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name":            "debug",
+      "type":            "cppdbg",
+      "request":         "launch",
+      "program":         "${workspaceFolder}/a.exe",
+      "cwd":             "${workspaceFolder}",
+      "MIMode":          "gdb",
+      "preLaunchTask":   "compile",
+      "stopAtEntry":     false,
+      "externalConsole": false,
+      "setupCommands": [{
+          "description": "Enable pretty-printing for gdb",
+          "text":        "-enable-pretty-printing",
+          "ignoreFailures": true
+      }]
+    }
+  ]
+}
 ```
 
 2. Click left to the line number 6 to set a breakpoint
