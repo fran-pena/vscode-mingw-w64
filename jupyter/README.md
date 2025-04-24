@@ -20,3 +20,6 @@
 ## Select a kernel
 - In Visual Studio Code, open a .ipynb file.
   - Click on _Select Kernel_ - _Jupyter Kernel_ - _PowerShell_.
+
+## Calling PowerShell commands
+Check [powershell_calls.ipynb](./powershell_calls.ipynb) to see how to call PowerShell comands fron a Jupyter.
