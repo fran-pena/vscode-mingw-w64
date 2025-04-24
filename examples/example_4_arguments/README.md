@@ -1,8 +1,8 @@
-# Example with no input
+# Example with command line arguments
 
 Please, be aware that:
 
-- File .f90 asks for data via command linea arguments:
+- File .f90 asks for data via command line arguments:
   ```fortran
   integer :: i, n
   character(260) :: arg ! 260 is the maximum path length in Windows API
@@ -12,4 +12,4 @@ Please, be aware that:
   ```
 
 - Rule _debug_ in _launch.json_:
-  - Redirect the standard input: `"args": ["4"]`.
+  - Gives the command line arguments: `"args": ["4"]`.

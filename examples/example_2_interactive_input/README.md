@@ -1,4 +1,4 @@
-# Example with no input
+# Example with interactive input
 
 Please, be aware that:
 

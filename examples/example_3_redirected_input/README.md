@@ -1,4 +1,4 @@
-# Example with no input
+# Example with redirected input
 
 Please, be aware that:
 
