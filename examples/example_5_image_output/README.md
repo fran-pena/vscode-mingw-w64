@@ -17,4 +17,4 @@ Please, be aware that:
   - calls Matlab: `"command": "matlab"`; 
   - with arguments `"args": ["-batch", "output_graph"]`;
   - belongs to group _test_: `"kind": "test"`;
-  - it is the default rule inthat group: `"isDefault": true`.
+  - it is the default rule in that group: `"isDefault": true`.
