@@ -9,8 +9,6 @@
       "cwd":             "${workspaceFolder}",
       "MIMode":          "gdb",
       "preLaunchTask":   "compile",
-      "stopAtEntry":     false,
-      "externalConsole": false
     }
   ]
 }

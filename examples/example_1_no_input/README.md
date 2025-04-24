@@ -10,6 +10,4 @@ Please, be aware that:
 
 - Rule _debug_ in _launch.json_:
   - before anything else, calls the rule _compile_: `"preLaunchTask": "compile"`;
-  - then calls executable: `"program": "${workspaceFolder}/a.exe"`;
-  - without stopping at entry: `"stopAtEntry": false`;
-  - and I/O is managed in the internal terminal: `"externalConsole": false`.
+  - then calls executable: `"program": "${workspaceFolder}/a.exe"`.

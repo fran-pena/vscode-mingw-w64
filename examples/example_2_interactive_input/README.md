@@ -8,4 +8,4 @@ Please, be aware that:
   - compiles with `gfortran` and arguments: `"args": ["-Wall", "-g", "-o", "a.exe", "hello_read.f90"]`;
 
 - Rule _debug_ in _launch.json_:
-  - I/O is managed in the internal terminal: `"externalConsole": false`.
+  - I/O is managed in the internal terminal.
