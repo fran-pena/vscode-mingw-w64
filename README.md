@@ -1,4 +1,4 @@
-# Use Visual Studio Code and gfortran (MinGW-w64) in Windows 10
+# Visual Studio Code and gfortran (MinGW-w64) in Windows
 
 ## Installing the MinGW-w64 toolchain
 
