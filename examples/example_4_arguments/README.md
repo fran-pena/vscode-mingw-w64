@@ -3,7 +3,7 @@
 Please, be aware that:
 
 - File .f90 asks for data via command linea arguments:
-  ```fortran
+  ```f90
   integer :: i, n
   character(260) :: arg ! 260 is the maximum path length in Windows API
 
