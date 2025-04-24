@@ -20,6 +20,8 @@ To compile, debug and execute Fortran projects in Visual Studio Code:
          
        - To execute using these rules, go to menu  _Run - Run Wothout Debugging_ (or press Ctrl + F5).
 
+Please visit the example folders within this directory.
+ 
 [^1]: <https://www.youtube.com/watch?v=Rj-kYb9nZ3g>
 
 [^2]: <https://www.youtube.com/watch?v=XuNjA230e3k>
